@@ -43,8 +43,13 @@ export class MyApp {
       { title: 'Home', component: 'HomePage', active: true, icon: 'home' },
       { title: 'Accordion List', component: 'AccordionListPage', active: false, icon: 'map' },
       { title: 'Dashboard', component: 'DashboardPage', active: false, icon: 'map' },
-      { title: 'Ionic Official Components',
-        component: 'IonicOfficialComponentsPage', active: false, icon: 'ionic' },
+      { title: 'Search', component: 'SearchPage', active: false, icon: 'map' },
+      { title: 'Services', component: 'LocationPage', active: false, icon: 'map' },
+      { title: 'Payment', component: 'PaymentPage', active: false, icon: 'map' },
+      {
+        title: 'Ionic Official Components',
+        component: 'IonicOfficialComponentsPage', active: false, icon: 'ionic'
+      },
       { title: 'Ionic Native Features', component: 'IonicNativePage', active: false, icon: 'ionic' },
       { title: 'Login', component: 'LoginListPage', active: false, icon: 'archive' },
       { title: 'Lists', component: 'ListPage', active: false, icon: 'body' },
@@ -56,7 +61,7 @@ export class MyApp {
       { title: 'Profile', component: 'ProfileListPage', active: false, icon: 'camera' },
       { title: 'Side Menu', component: 'SideMenuPage', active: false, icon: 'bookmark' },
       // Removed for now as there were breaking changes in slides
-      { title: 'Timeline', component: 'TimelinePage', active: false, icon: 'calendar'},
+      { title: 'Timeline', component: 'TimelinePage', active: false, icon: 'calendar' },
       { title: 'Slides', component: 'SlidesPage', active: false, icon: 'contact' },
       { title: 'Theming', component: 'ThemingPage', active: false, icon: 'power' },
     ];

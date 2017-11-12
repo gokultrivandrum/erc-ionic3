@@ -12,7 +12,24 @@
 
   <accordion-list-dashboard *ngFor="let item of items" [title]="item.name" textColor="#FFF" hasMargin="false" headerColor="#F53D3D">
     <img [src]="item.imageUrl">
-    <p text-wrap>{{item.description}}</p>
+    <ion-item no-lines padding-left padding-right class="reg-toggle">
+      <ion-toolbar>
+        <ion-segment id="gender" required>
+          <ion-segment-button value="male">Male
+          </ion-segment-button>
+          <ion-segment-button value="female">Female
+          </ion-segment-button>
+          <ion-segment-button value="female1">Female1
+          </ion-segment-button>
+          <ion-segment-button value="female2">Female2
+          </ion-segment-button>
+          <ion-segment-button value="female3">Female3
+          </ion-segment-button>
+          <ion-segment-button value="female4">Female4
+          </ion-segment-button>
+        </ion-segment>
+      </ion-toolbar>
+    </ion-item>
   </accordion-list-dashboard>
 </ion-content>
 

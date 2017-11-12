@@ -8,11 +8,13 @@ import { FlashCardComponent } from './flash-card/flash-card';
 import { AccordionListComponent } from './accordion-list/accordion-list';
 import { TimelineComponent, TimelineItemComponent, TimelineTimeComponent } from './timeline/timeline';
 import { AccordionListDashboardComponent } from './accordion-list-dashboard/accordion-list-dashboard';
+import { ExpandableFooter } from './expandable-footer/expandable-footer';
 
 export const components = [
   Timer,
   TimerProgress,
   ExpandableHeader,
+  ExpandableFooter,
   FlashCardComponent,
   AccordionListComponent,
   TimelineComponent,
